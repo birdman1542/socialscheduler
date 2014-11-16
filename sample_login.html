@@ -1,0 +1,21 @@
+<head>
+<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+<link rel="import" href="bower_components/core-ajax/core-ajax.html">
+<link rel="import" href="bower_components/polymer/Polymer.html">
+<link rel="import" href="elements/my-element.html">
+<meta charset="UTF-8">
+</head>
+<body>
+<form action="http://127.0.0.1:8080/forms.js" method="post">
+Email:<br>
+<input type="email" id="email" name="email">
+<br>First Name:<br>
+<input type="text" id="firstname" name="firstname">
+<br>Last Name:<br>
+<input type="text" id="lastname" name="lastname">
+<br><br>
+<input type="submit" name="Submit">
+</form>
+<br>
+<my-element></my-element>
+</body>
